@@ -37,6 +37,7 @@ $array = [
         ]
     ],
 ];
+// uso un foreach per prendere tutti i dati, prima il chiave/valore, poi prendo la chiave del valore preso in precedenza e stampo gli elementi in schermo presi dalla chiave 2, utilizzo molti br per separare tutti i reparti tra loro
 foreach ($array as $chiave => $valore) {
     echo $chiave;
     echo "<br>";
